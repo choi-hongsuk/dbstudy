@@ -9,7 +9,7 @@
             (3) 1/24/60 : 1분
             (4) 1/24/60/60 : 1초
 */
-SELECT TO_CHAR(SYSDATE,             'YY/MM/DD HH24:MI:SS')  -- 현재 날짜의 시간
+SELECT TO_CHAR(SYSDATE,              'YY/MM/DD HH24:MI:SS')  -- 현재 날짜의 시간
      , TO_CHAR(SYSDATE + 1,          'YY/MM/DD HH24:MI:SS')  -- 1일 후
      , TO_CHAR(SYSDATE - 1,          'YY/MM/DD HH24:MI:SS')  -- 1일 전
      , TO_CHAR(SYSDATE + 1/24,       'YY/MM/DD HH24:MI:SS')  -- 1시간 후

@@ -14,7 +14,7 @@
         TO_NUMBER(문자)
 */
 SELECT '100', TO_NUMBER('100')
-    FROM DUAL;
+  FROM DUAL;
     
 -- 아래 쿼리는     
 SELECT *

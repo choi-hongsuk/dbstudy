@@ -16,7 +16,7 @@ COMMIT;
 SELECT *
   FROM SAMPLE_T;
 
--- SAMPLE_T의 전체 데이터아 점수 합계 조회하기
+-- SAMPLE_T의 전체 데이터의 점수 합계 조회하기
 SELECT NAME, KOR, ENG, MATH
      , (KOR + ENG + MATH) AS TOTAL  -- NULL이 포함된 연산 결과는 NULL이다.
   FROM SAMPLE_T;
